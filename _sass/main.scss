@@ -300,6 +300,64 @@ ul.post-list, ul.social-media-list {
     background-color: $bg;
     border-color: #dee2e6;
 }
+// === thietke
+.modal.full-screen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.full-screen .modal-dialog {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.full-screen .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: $bgDarker;
+}
+
+.full-screen .modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    border: 0;
+}
+
+.full-screen .modal-body {
+    position: absolute;
+    top: 50px;
+    bottom: 60px;
+    width: 100%;
+    overflow: auto;
+}
+
+.full-screen .modal-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    padding: 10px;
+}
+
+// ===
 @media (min-width: 569px) {
     h1 {
         font-size: 3.2em;
